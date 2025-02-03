@@ -22,13 +22,13 @@ Visual Studio Code (VS Code) ou un IDE de ton choix
 
 ---
 
-### 🔹 **Démarrer le Backend (Spring Boot)**
+### **Démarrer le Backend (Spring Boot)**
 1. Aller dans le dossier backend : 
    
    cd C:\TaskManagement\Task
 
  2. Lance l'application Spring Boot :
-        mvn spring-boot:run
+    mvn spring-boot:run
 
  3.Accéder à la base de données H2 (interface web) :
 
