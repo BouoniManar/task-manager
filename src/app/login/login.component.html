@@ -1,0 +1,14 @@
+<h2 class="text-center">Login</h2>
+<div class="login-container">
+  <div class="p-fluid">
+    <div class="p-field">
+      <label for="username">Username</label>
+      <input pInputText id="username" [(ngModel)]="username" type="text" placeholder="Enter your username" />
+    </div>
+    <div class="p-field">
+      <label for="password">Password</label>
+      <input pPassword id="password" [(ngModel)]="password" type="password" placeholder="Enter your password" />
+    </div>
+    <p-button label="Login" icon="pi pi-check" (click)="validateLogin()"></p-button>
+  </div>
+</div>

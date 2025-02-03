@@ -1,0 +1,65 @@
+.task-management-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-table-container {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.p-button-sm {
+  font-size: 12px;
+  padding: 0.4rem 0.8rem;
+}
+
+.p-button-rounded {
+  border-radius: 20px;
+}
+
+.task-filters {
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .task-table-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .p-button-sm {
+    font-size: 10px;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .task-filters {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+}
+.p-field, .p-field-checkbox {
+  margin-top: 10px;
+}
+.p-dialog-mask {
+  display: none !important;
+}
+
+.completed {
+  background-color: #e0ffe0;
+  text-decoration: line-through;
+}
